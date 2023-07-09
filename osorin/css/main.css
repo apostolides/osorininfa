@@ -1,0 +1,114 @@
+html {
+    cursor: url("../cursors/cursor_normal.cur"), auto;
+    background-image: url("../images/stars.gif");
+}
+
+@font-face {
+    font-family: 'oldschool'; /*a name to be used later*/
+    src: url('../fonts/webfonts/Web437_Cordata_PPC-400.woff');
+}
+
+body {
+    background-color: #3f3c3c;
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+    font-family: "oldschool";
+    
+    /* center-like effect properties */
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-image {
+    /* image properties */
+    height: 30%;
+
+    /* image position */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+
+}
+
+.header-table {
+    border: 1px solid; 
+    text-align: center;
+    
+    /* table position */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-table-td {
+    border: 1px solid;
+    width: 20%;
+}
+
+.header-table-td:hover {
+    background-color: rgb(224, 224, 224);
+    cursor: url("../cursors/cursor_hover.cur"), pointer;
+}
+
+.main {
+    padding-left: 1%;
+    padding-right: 1%;
+    display: table;
+}
+
+.left-sidebar{
+    display: table-cell;
+    vertical-align: top;
+    width: 200px;
+}
+
+.right-sidebar{
+    display: table-cell;
+    width: 150px;
+    border: 1px solid;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+.top-banner {
+    display: block;
+    border: 1px solid;
+    background-color: #302f2f;
+}
+
+.banner {
+    white-space: pre;
+    font-family: monospace;
+    margin-left: 6.5%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(90, 92, 90), 0 0 1em rgb(5, 5, 5);
+}
+
+.content-center {
+    display: table-cell;
+    background-color: #302f2f;
+    border: 1px solid;
+    height: 100vh;
+    vertical-align: top;
+    width: 1000px;
+}
+
+.pc-gif {
+    height: 73px;
+    width: 80px;
+    margin-left: 25%;
+    padding-top: 4px;
+}
+
+.debian-gif {
+    margin-left: 27%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+a:visited{
+    color: black;
+}

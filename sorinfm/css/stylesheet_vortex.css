@@ -1,0 +1,59 @@
+html {
+    height: 99%;
+}
+
+body {
+    background-color: rgb(7, 20, 26);
+    height: 99%;
+}
+
+main {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(7, 20, 26);
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#psy-gif { 
+    padding: 1%;
+}
+
+.typewriter {
+    font-family: 'Special Elite', cursive;
+    color: white;
+}
+
+.hidden { 
+    display: none;
+}
+
+#star-gif {
+    padding-top: 20%;
+    cursor: pointer;
+}
+
+#main-player {
+    padding-top: 4%;
+}
+
+#sorinfm-banner {
+    text-align: center;
+    color: #e9e2f7;
+}
+
+#track-info{
+    padding-top: 2%;
+    text-align: center;
+    color: #e9e2f7;
+}
+
+#listeners-info {
+    padding-top: 2%;
+    text-align: center;
+    color: #e9e2f7;
+}
